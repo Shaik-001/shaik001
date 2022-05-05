@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+       <link href="style.css" type="text/css" rel="stylesheet">
+       <title>
+           Shaik's Portfolio
+       </title>
+    </head> 
+       <body>
+           <main>
+           <header>
+               <div id="headersection">
+           <nav class="topnav" id="portfolioTopnav">
+           <a href="#aboutsection">About</a> <a href="#skillssection"> Skills</a> <a href="#accomplishmentssection"> Accomplishments</a> <a href="#contactsection">Contact</a>
+           <a href="javascript:void(0);" class="icon" onclick="openMenu()" ><i class="fa fa-bars"></i></a>
+           </nav>
+        </div>
+           <h1> Mohamed Shaik</h1>
+           </header>
+           <div id="aboutsection">
+               <!--About Section-
+               <p>This section talks about myself</p>-->
+               <figure>
+               <a href="C:\Users\muhammam\OneDrive - Queensland University of Technology\Documents\Portfolio\shaik.jpeg" target="_blank"><img src="shaik.jpeg" width="200" height="200" alt="An Image of Mohamed Shaik"/></a>
+               
+              </figure>
+                <h2 id="about" class="heading uppercase"> About</h2>
+                <p>
+                    I am a Research Chemist currently enrolled at QUT for my <strong>PhD in Chemical Engineering</strong>. <em>I see myself as a poised and hardworking individual possessing strong leadership and communication skills, capable of adapting to changing environments with confidence and enthusiasm</em>.
+                </p>
+                <br> 
+                </div>
+                <div id="skillssection">
+                    <!--Skills Section-
+                    <p>This section talks about my strengths and skills</p>-->
+                <h3 id="skills"> Skills</h3>
+                    <h4> Research Skills </h4>
+                        <ul class="list">
+                            <li>Report writing</li>
+                            <li>Data collection</li>
+                            <li>Planning and scheduling</li>
+                            <li>Analysis of collected information</li>
+                        </ul>
+                    <h4>Interpersonal Skills</h4>
+                        <ul class="list">
+                            <li>Active listening</li>
+                            <li>Teamwork</li>
+                            <li>Resposibility</li>
+                            <li>Leasdership</li>
+                        </ul>
+                    <h4>Technical Skills</h4>
+                        <ul class="list">
+                            <li>Chemical analysis</li>
+                            <li>GC-MS instrument operation</li>
+                            <li>HPLC instrument operation</li>
+                            <li>Project management</li>
+                            <li>Software proficiency</li>
+                        </ul>
+                </h3>
+                <br>
+           </div>
+           <div id="accomplishmentssection">
+               <!--Accomplishments Section-
+               <p>This section contains the awards and achievements that I have received</p>-->
+                <h2> Accomplishments</h2>
+                <table>
+                    <tr>
+                        <th scope="col">Publications</th>
+                        <th scope="col">Awards</th>
+                        <th scope="col">Presentations</th>
+                    </tr>
+                    <tr>
+                        <td> 1</td>
+                        <td>2</td>
+                        <td>4</td>
+                    </tr>
+                </table>
+           </div>
+           <h3>Coding Examples</h3>
+           <a href="quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+           <br>
+           <div id="contactsection">
+               <!--Contact Section-
+               <p>This section contains all the modes via which I could be contacted</p>-->
+                <h2 id="contact" class="contactform"> Contact</h2>
+                <a href="https://au.linkedin.com/in/mohamed-shaik" target="_blank"> LinkedIn </a>
+                <p></p>
+                <form>
+                    <label for="name"> *Name:</label> <br>
+                    <input type="text" id="name" name="name" required> <br> <br>
+                    <label for="email">*Email</label> <br>
+                    <input type="text" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> <br> <br>
+                    <label for="mobile"> Mobile (optional) </label> <br>
+                    <input type="tel" name="mobile" id="mobile" pattern="[0-9]{10,16}"> <br> <br>
+                    <label for="textarea"> *Leave your message below:</label> <br>
+                    <textarea id="message" name="message" rows="5" cols="30" required></textarea> <br> <br>
+                    <input type="Submit">
+                </form>
+           </div>
+        </main>
+        <script src="./nav.js"></script>
+       </body>
+   
+</html>
